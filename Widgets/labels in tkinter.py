@@ -14,11 +14,28 @@
 from tkinter import *
 
 myWindow = Tk()
-myWindow.geometry("400x400")
+# instantiating a label or creating an instance of a label, 
+# whatever is within the Label constructor can be used to modify the label
+# It is always good practice to separate them on different lines for clarity
 
-# instantiating a label or creating an instance of a label
-myLabel = Label(myWindow, text="Hello World")
+icon = PhotoImage(file='Windows\pic.png')
+myLabel = Label(myWindow, 
+                text="Hello World",
+                fg="green",
+                font=("Times New Romans",40,"bold"),
+                bg="black",
+                relief="raised",
+                bd=10,
+                padx=10,
+                pady=10,
+                image=icon,
+                compound='bottom'
+                )
+
+
 myLabel.pack() # This will put it by default at the top center
 
 
 myWindow.mainloop() 
+
+# You can add an image, but as usual you have to first convert it into a photo Image as we have always been doing
