@@ -18,17 +18,17 @@ myWindow = Tk()
 # whatever is within the Label constructor can be used to modify the label
 # It is always good practice to separate them on different lines for clarity
 
-icon = PhotoImage(file='Windows\pic.png')
+icon = PhotoImage(file='Windows\\pic.png')
 myLabel = Label(myWindow, 
-                text="Hello World",
-                fg="green",
-                font=("Times New Romans",40,"bold"),
-                bg="black",
-                relief="raised",
-                bd=10,
-                padx=10,
-                pady=10,
-                image=icon,
+                text="Hello World", # This is for the text of the label
+                fg="green", # This is for the foreground or the color of the text
+                font=("Times New Romans",40,"bold"), # This is for the font
+                bg="black", # This is for the background color
+                relief="raised", # This has to do with the border style
+                bd=10, # Now this has to do with the border width
+                padx=10, # This has to do with the padding. x here means left and right
+                pady=10, # This has to do with the padding. y here stands for top and bottom
+                #image=icon, Was commented because the image size is too big to be contained in the label
                 compound='bottom'
                 )
 
