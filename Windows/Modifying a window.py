@@ -1,4 +1,5 @@
-'''
+''' 
+    MODIFYING WINDOWS IN TKINTER
     As earlier discussed, a simple window is created in python using tkinter in basically 2 lines
     Now when the window appears upon running the program, it has some things that can be modified, 
     like:
