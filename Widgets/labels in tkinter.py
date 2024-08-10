@@ -7,6 +7,7 @@
        help you modify the label as you want.
     => Now after this, the label will not be found on the window, by default, you need to use methods that
        help you place the labels on the window. There are basically three of them, (the pack(), place() and grid())
+    => Widgets are generally placed on windows using these three methods.
 
        We will only study the pack for this
 '''
