@@ -29,7 +29,7 @@ window.title("Maximus First GUI window")
 icon = PhotoImage(file='Windows\pic.png')
 window.iconphoto(True,icon)
 
-window.config(background="Black")
+window.config(background="blue")
 
 window.mainloop()
 
