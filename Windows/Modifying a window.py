@@ -27,11 +27,11 @@ my_window.title("Maximus First GUI window")
 # near the title. for this to be done, we need to convert the image file that we want to use into
 # A photoImage, since tkinter recognises only that.
 icon = PhotoImage(file='Windows\pic.png')
-window.iconphoto(True,icon)
+my_window.iconphoto(True,icon)
 
-window.config(background="blue")
+my_window.config(background="blue")
 
-window.mainloop()
+my_window.mainloop()
 
 
 # Note that for the images I tried the jpeg format and the PhotoImage() class doesn't recognise that format
