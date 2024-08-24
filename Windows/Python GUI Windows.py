@@ -19,7 +19,7 @@
 
 from tkinter import * # This will import all the attributes and methods common to the tkinter module
 
-# instantiation
+# instantiation of the TK class
 my_window = Tk()
 
 # Displaying the window
