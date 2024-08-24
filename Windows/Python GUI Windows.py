@@ -20,10 +20,10 @@
 from tkinter import * # This will import all the attributes and methods common to the tkinter module
 
 # instantiation
-window = Tk()
+my_window = Tk()
 
 # Displaying the window
-window.mainloop()
+my_window.mainloop()
 
 # Running these two lines of code will create a default window in Tkinter
 # It's as easy as that
